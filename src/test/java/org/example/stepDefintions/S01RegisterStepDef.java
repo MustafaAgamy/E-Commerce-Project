@@ -42,7 +42,7 @@ public class S01RegisterStepDef {
 
     @And("user enter email field")
     public void userEnterEmailField() throws InterruptedException {
-        p01Register.emailEL.sendKeys("mustafaagamy1990@gmail.com");
+        p01Register.emailEL.sendKeys("mustafaagamy199@gmail.com");
         Thread.sleep(2000);
     }
 

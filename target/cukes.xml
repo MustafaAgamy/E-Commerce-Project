@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="209.645">
-    <testcase classname="Register | users could register with new accounts" name="guest user could register with valid data successfully" time="23.038">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="217.86">
+    <testcase classname="Register | users could register with new accounts" name="guest user could register with valid data successfully" time="24.715">
         <system-out><![CDATA[Given user go to register page..............................................passed
 When user select gender type................................................passed
 And user enter first name "agamy" and last name "mustafa"...................passed
@@ -11,68 +11,68 @@ And user clicks on register button..........................................pass
 Then success message is displayed...........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login | users could use login functionality to use their accounts" name="user could login with valid email and password" time="6.18">
+    <testcase classname="Login | users could use login functionality to use their accounts" name="user could login with valid email and password" time="7.196">
         <system-out><![CDATA[Given user go to login page.................................................passed
-When user login with "mustafaagamy1990@gmail.com" and "Must@fa".............passed
+When user login with "mustafaagamy199@gmail.com" and "Must@fa"..............passed
 And user press on login button..............................................passed
 Then user login to the system successfully..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login | users could use login functionality to use their accounts" name="user could login with invalid email and password" time="6.743">
+    <testcase classname="Login | users could use login functionality to use their accounts" name="user could login with invalid email and password" time="6.821">
         <system-out><![CDATA[Given user go to login page.................................................passed
 When user login with "mustafaagamy@gmail.com" and "Must@fa".................passed
 And user press on login button..............................................passed
 Then user could not login to the system.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Currency | users could change currency view" name="user could select euro currency" time="5.869">
+    <testcase classname="Currency | users could change currency view" name="user could select euro currency" time="5.54">
         <system-out><![CDATA[When user select euro option................................................passed
 Then euro is applied to all products........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search | users could using product name and sku" name="user could search using product name" time="11.492">
+    <testcase classname="Search | users could using product name and sku" name="user could search using product name" time="12.435">
         <system-out><![CDATA[When Write product "book"...................................................passed
 And press search button.....................................................passed
 Then search results contains "book".........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search | users could using product name and sku" name="user could search using product name 2" time="7.368">
+    <testcase classname="Search | users could using product name and sku" name="user could search using product name 2" time="7.445">
         <system-out><![CDATA[When Write product "laptop".................................................passed
 And press search button.....................................................passed
 Then search results contains "laptop".......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search | users could using product name and sku" name="user could search using product name 3" time="9.434">
+    <testcase classname="Search | users could using product name and sku" name="user could search using product name 3" time="9.99">
         <system-out><![CDATA[When Write product "nike"...................................................passed
 And press search button.....................................................passed
 Then search results contains "nike".........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search | users could using product name and sku" name="user could search using Sku" time="8.534">
+    <testcase classname="Search | users could using product name and sku" name="user could search using Sku" time="8.953">
         <system-out><![CDATA[Given Write product "SCI_FAITH" using Sku...................................passed
 And press search button after search........................................passed
 Then search results contains "SCI_FAITH" using Sku..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search | users could using product name and sku" name="user could search using Sku 2" time="8.368">
+    <testcase classname="Search | users could using product name and sku" name="user could search using Sku 2" time="8.786">
         <system-out><![CDATA[Given Write product "APPLE_CAM" using Sku...................................passed
 And press search button after search........................................passed
 Then search results contains "APPLE_CAM" using Sku..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search | users could using product name and sku" name="user could search using Sku 3" time="9.158">
+    <testcase classname="Search | users could using product name and sku" name="user could search using Sku 3" time="8.888">
         <system-out><![CDATA[Given Write product "SF_PRO_11" using Sku...................................passed
 And press search button after search........................................passed
 Then search results contains "SF_PRO_11" using Sku..........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="hover on one of main categories then click on sub category" name="user will select randomly from three main category" time="11.828">
+    <testcase classname="hover on one of main categories then click on sub category" name="user will select randomly from three main category" time="11.703">
         <system-out><![CDATA[Given select one of three main category.....................................passed
 And User can select on of sub category if exist.............................passed
 Then sub-category title equals the one you get it while selecting random sub-category.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Sliders | users can find two sliders when they open home page and Click on them" name="First slider Nokia click" time="5.084">
+    <testcase classname="Sliders | users can find two sliders when they open home page and Click on them" name="First slider Nokia click" time="5.174">
         <failure message="The following asserts failed:&#10;&#9;Assertion of Nokia URL expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[Given click on first slide nokia............................................passed
 Then should navigate to nokia Page..........................................failed
 
@@ -85,7 +85,7 @@ java.lang.AssertionError: The following asserts failed:
 	at ✽.should navigate to nokia Page(file:///D:/FWD%20-%20Front%20End%20Testing/Automation%20Projects/demonopcommerce/src/main/resources/features/F06HomeSliders.feature:5)
 ]]></failure>
     </testcase>
-    <testcase classname="Sliders | users can find two sliders when they open home page and Click on them" name="Second slider Iphone click" time="5.278">
+    <testcase classname="Sliders | users can find two sliders when they open home page and Click on them" name="Second slider Iphone click" time="5.474">
         <failure message="The following asserts failed:&#10;&#9;Assertion of Iphone URL expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[Given click on second slide Iphone..........................................passed
 Then should navigate to Iphone Page.........................................failed
 
@@ -98,22 +98,22 @@ java.lang.AssertionError: The following asserts failed:
 	at ✽.should navigate to Iphone Page(file:///D:/FWD%20-%20Front%20End%20Testing/Automation%20Projects/demonopcommerce/src/main/resources/features/F06HomeSliders.feature:10)
 ]]></failure>
     </testcase>
-    <testcase classname="FollowUs | users could open followUs links" name="users click on facebook link" time="12.786">
+    <testcase classname="FollowUs | users could open followUs links" name="users click on facebook link" time="12.826">
         <system-out><![CDATA[Given user click on "facebook" link.........................................passed
 When user opens new tab.....................................................passed
 And user can switch between tabs............................................passed
 Then "https://www.facebook.com/nopCommerce" is opened in new tab............passed
 ]]></system-out>
     </testcase>
-    <testcase classname="FollowUs | users could open followUs links" name="users click on twitter link" time="12.926">
+    <testcase classname="FollowUs | users could open followUs links" name="users click on twitter link" time="13.455">
         <system-out><![CDATA[Given user click on "twitter" link..........................................passed
 When user opens new tab.....................................................passed
 And user can switch between tabs............................................passed
 Then "https://twitter.com/nopCommerce" is opened in new tab.................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="FollowUs | users could open followUs links" name="users click on rss link" time="25.423">
-        <failure message="Expected condition failed: waiting for number of open windows to be 2 (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.6.0', revision: '79f1c02ae20'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.72, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Agami\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57832/devtoo..., se:cdpVersion: 108.0.5359.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6081f31b1d88d8ce7d5ec2293048d4e8" type="org.openqa.selenium.TimeoutException"><![CDATA[Given user click on "rss" link..............................................passed
+    <testcase classname="FollowUs | users could open followUs links" name="users click on rss link" time="25.35">
+        <failure message="Expected condition failed: waiting for number of open windows to be 2 (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.6.0', revision: '79f1c02ae20'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.72, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Agami\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60726}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60726/devtoo..., se:cdpVersion: 108.0.5359.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cc058233e4f34b892c335748bc1262f5" type="org.openqa.selenium.TimeoutException"><![CDATA[Given user click on "rss" link..............................................passed
 When user opens new tab.....................................................failed
 And user can switch between tabs............................................skipped
 Then "https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab.skipped
@@ -123,27 +123,27 @@ org.openqa.selenium.TimeoutException: Expected condition failed: waiting for num
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.72, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Agami\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57832}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57832/devtoo..., se:cdpVersion: 108.0.5359.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6081f31b1d88d8ce7d5ec2293048d4e8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.72, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Agami\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60726}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60726/devtoo..., se:cdpVersion: 108.0.5359.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc058233e4f34b892c335748bc1262f5
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at org.example.stepDefintions.S07FollowUsStepDef.userOpensNewTab(S07FollowUsStepDef.java:45)
 	at ✽.user opens new tab(file:///D:/FWD%20-%20Front%20End%20Testing/Automation%20Projects/demonopcommerce/src/main/resources/features/F07FollowUs.feature:19)
 ]]></failure>
     </testcase>
-    <testcase classname="FollowUs | users could open followUs links" name="users click on youtube link" time="14.657">
+    <testcase classname="FollowUs | users could open followUs links" name="users click on youtube link" time="16.222">
         <system-out><![CDATA[Given user click on "youtube" link..........................................passed
 When user opens new tab.....................................................passed
 And user can switch between tabs............................................passed
 Then "https://www.youtube.com/user/nopCommerce" is opened in new tab........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="WishList | users can add products to wishlist card" name="user add products to wishlist card" time="10.733">
+    <testcase classname="WishList | users can add products to wishlist card" name="user add products to wishlist card" time="11.44">
         <system-out><![CDATA[Given user press on wishlist Button.........................................passed
 Then the success Msg will display...........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="WishList | users can add products to wishlist card" name="user add products to wishlist card 2" time="14.422">
+    <testcase classname="WishList | users can add products to wishlist card" name="user add products to wishlist card 2" time="15.142">
         <system-out><![CDATA[Given user press on wishlist Button.........................................passed
 Then the success Msg will display...........................................passed
 And User will open wishlist page............................................passed
